@@ -1,0 +1,307 @@
+
+body{
+    box-sizing: border-box;
+    position:absolute;
+}
+.box_template {
+    margin:48px;
+    box-sizing: border-box;
+    position: relative;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    width: 1374px;
+    height: 1744px;
+    background: #FFD5FF;
+    border: 1px solid #FF6FFF;
+    border-radius: 12px;
+   
+}
+.date_panel {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 24px;
+    gap: 22px;
+    position: relative;
+    width: 438px;
+    height: 91px;
+    left: 46px;
+    margin-bottom: 48px;
+    
+    /* Planner/Pink */
+    
+    background: #FF81FF;
+    border-radius: 12px;
+    margin-top: 48px;
+}
+.date_label {
+    /* date label: */
+    width: 123px;
+    height: 59px;
+    /* Planner/Heading1/Reg */
+    font-family: 'Space Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 59px;
+    color: #000000;
+    /* Inside auto layout */
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.mounth {
+    /* date */
+
+
+width: 245px;
+height: 59px;
+
+/* Planner/Heading 1 */
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 59px;
+
+/* Core/Black */
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+/* .chek_the_mounth {
+    box-sizing: border-box;
+display:flex;
+position: relative;
+width: 592px;
+height: 128px;
+left: 46px;
+//top: 187px;
+
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+border-radius: 12px;
+} */
+.chek_the_week{
+    // position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-items: flex-start;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    position: relative;
+    width: 592px;
+    height: 128px;
+    left: 46px;
+   // top: 187px;
+    background: #FFFFFF;
+    border: 1px solid #E6E6E6;
+    border-radius: 12px;
+    margin-bottom: 48px;
+}
+label{
+    /* Planner/Heading 2 */
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+    display:flex;
+    flex-direction:column;
+  }
+input {
+    box-sizing: border-box;
+    border-radius: 50%;width: 24px;
+height: 24px;
+/* grey ish */
+border: 2px solid #B0B0B0;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.daily_shedule {
+    display:flex;
+    flex-direction:column;
+    box-sizing: border-box;
+position: relative;
+width: 688px;
+height: 1011px;
+left: 46px;
+// top: 363px;
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+border-radius: 12px;
+margin-bottom: 48px;
+}
+.notes {
+    display:flex;
+    margin-bottom: 48px;
+
+
+position: relative;
+width: 688px;
+height: 223px;
+left: 46px;
+margin-bottom: 1px;
+background: #FFFFFF;
+border: 1px solid #FFFFFF;
+border-radius: 12px;
+
+}
+.smile {
+    display:flex;
+    position: relative;
+width: 416px;
+height: 128px;
+margin-left: 48px;
+margin-bottom:48px;
+margin-top: 394px;
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+border-radius: 12px;
+}
+.water {
+    display:flex;
+    position: relative;
+width: 544px;
+height: 128px;
+left: 48px;
+margin-right:48px;
+margin-bottom:48px;
+
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+border-radius: 12px;
+}
+.most_important {
+    display:flex;
+    position: relative;
+width: 544px;
+height: 262px;
+left: 48px;
+margin-bottom:48px;
+
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+border-radius: 12px;
+}
+.todos {
+    display:flex;
+    left: 48px;
+margin-bottom:48px;
+position: relative;
+width: 544px;
+height: 603px;
+
+
+background: #FFFFFF;
+border: 1px solid #E6E6E6;
+border-radius: 12px;
+}
+.p_1{
+    /* Notes */
+
+
+width: 74px;
+height: 36px;
+
+/* Planner/Heading 2 */
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.p_2{
+    /* Type here */
+border-top: 1px solid #B0B0B0;
+
+width: 620px;
+height: 27px;
+
+/* Planner/Body */
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+.notes_layout{
+    padding:42px;
+}
+
+tr > :first-child {
+
+/* Planner/Heading 3 */
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: right;
+
+color: #515050;
+
+
+  }
+
+  tr > :last-child {
+
+
+/* Planner/Body */
+
+font-family: 'Space Mono';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #000000;
+  }
